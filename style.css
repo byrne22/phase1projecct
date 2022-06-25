@@ -136,3 +136,6 @@ h1, h2{
 #tabbed-content .panel.active{
     display: block;
 }
+#footer{
+    align-content:flex-end;
+}
