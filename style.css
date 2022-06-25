@@ -18,3 +18,8 @@ h1, h2{
     overflow: hidden;
     border: 1px solid #f60707;
 }
+#page-banner{
+    background: hsl(0, 84%, 42%) ;
+    padding: 10px 0;
+
+}
