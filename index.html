@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" />
     <script src="index.js"></script>
+	<!--Add links for the book search button-->
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Slackey&family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/public/css/styles.css"/>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script type="text/javascript" src="/public/js/index.js"></script>
     <title>book junki project</title>
 </head>
 <body>
+	
     <div id="wrapper">
+		<div class="topbar">
+			<h1 class="logo">
+			  <img src="/public/imgs/logo.png"/><a href="#">Search books</a>
+			</h1>
+		  </div>
 	    <header>
 	    	<div id="page-banner">
 	    		<h1 class="title">goodBook junki</h1>
@@ -51,21 +62,22 @@
                 <input type="text" placeholder="Add a book..." />
                 <button>Add</button>
             </form>
-             <div id="tabbed-content">
-        <ul class="tabs">
-          <li data-target="#about" class="active">About</li>
-          <li data-target="#contact">Contact</li>
-        </ul>
-        <div class="panel active" id="about">
-          <p>About Book Junki</p>
-          <p>If you are crazy about books this app will help you make your reading adventure fun,enables you to search your favorite books and access them ,you can also recommend the books to your friends and schedule your reading as well</p>
-        </div>
-        <div class="panel" id="contact">
-          <p>Contact Book Junki</p>
-          <p>We believe in making the world a better place one book at a time <br>Email.goodbookjunkies@gmail.com</p>
-		
-        </div>
-		      </div>
-	     </div>
+		<!--add the book search button-->
+	
+		  <div class="home-spacer">
+			<h1 class="page-title">Identify a book in an instant</h1>
+	  
+			<form id="booksearch">
+			  <input name="query" type="text" placeholder="Search for a quote, text, or keywords">
+			</form>
+		  </div>
+		  <div class="bookmatch">
+		</div>
+		<div>
+			<footer>
+				<p>Designed by Byron Odhiambo 2022</p>
+			  </footer> 
+		</div>
+		    
 </body>
 </html>
