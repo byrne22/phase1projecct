@@ -26,7 +26,7 @@ visit the website on your browser
 Go Back to the top
 
 Live Link
-Click this link to view the live application [https://byrne22.github.io/phase1project/]
+Click this link to view the live application [https://byrne22.github.io/phase1projecct/]
 Technology Used
 HTML - which was used to develope the structure off the pages.
 CSS - which was used to style the User Interface.
