@@ -34,7 +34,7 @@ let requests, OpenLibrary;
 	},
     };
 
-    let debounce = function (func, threshold, execAsap) {
+    const debounce = function (func, threshold, execAsap) {
 	let timeout;
 	return function debounced () {
 	    var obj = this, args = arguments;
