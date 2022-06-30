@@ -1,14 +1,14 @@
 html {
     height: 95;
     width: 80%;
-    background-image: url(/public/imgs/dollar-gill-9C445KLq-JE-unsplash.jpg);
     font-family: 'Roboto', sans-serif;
+    background-image: url(/public/imgs/dollar-gill-9C445KLq-JE-unsplash.jpg);
 }
 
 body {
     margin: 0 0 0 5;
     margin-top: 0;
-    color: #fff;
+    color: rgb(10, 1, 1);
 }
 
 .topbar {
@@ -24,7 +24,7 @@ body {
 }
 
 .topbar h1.logo a {
-    color: #222;
+    color: #e90d41;
     text-decoration: none;
 }
 
@@ -50,20 +50,19 @@ h1.page-title {
 }
 
 .home-spacer form {
-    margin: 0 auto;
     width: 100%;
 }
 
 input {
-    border-radius: 25px;
+    border-radius: 5px;
     border: none;
-    padding: 15px 25px;
+    padding: 10px 15px;
     color: #000;
-    border: 3pt solid #aaa;
+    border: 2pt solid #e90d41;
 }
 
 input::placeholder {
-    color: #666;
+    color: #000;
 }
 
 input:focus {
@@ -100,7 +99,7 @@ a {
 
 .loader {
     margin: 0 auto;
-    border: 15px solid #fff; /* Light grey */
+    border: 5px solid #fff; /* Light grey */
     background-color: #333;
     border-radius: 5px;
     text-align: center;
@@ -121,8 +120,8 @@ a {
 }
 
 .bookmatch img {
-    border-radius: 7px;
+    border-radius: 10px;
     width: 120px;
     margin: 0 auto;
-    border: 10px solid #fff;
+    border: 3px solid #e90d41;
 }
