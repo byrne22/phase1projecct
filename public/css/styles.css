@@ -1,6 +1,6 @@
 html {
-    height: 95;
-    width: 80%;
+    height: 98%;
+    width: 98%;
     font-family: 'Roboto', sans-serif;
     background-image: url(/public/imgs/dollar-gill-9C445KLq-JE-unsplash.jpg);
 }
@@ -8,7 +8,7 @@ html {
 body {
     margin: 0 0 0 5;
     margin-top: 0;
-    color: rgb(10, 1, 1);
+    color: white;
 }
 
 .topbar {
@@ -37,7 +37,7 @@ body {
     
 h1.logo {
     font-family: 'Slackey', cursive;
-    padding-left: 400px;
+    padding-left: 500px;
 }
 
 h1.page-title {
