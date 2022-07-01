@@ -1,3 +1,4 @@
+
 let requests, OpenLibrary;
 (function () {
     'use strict';
@@ -37,7 +38,7 @@ let requests, OpenLibrary;
     let debounce = function (func, threshold, execAsap) {
 	let timeout;
 	return function debounced () {
-	    var obj = this, args = arguments;
+	    let obj = this, args = arguments;
 	    function delayed () {
 		if (!execAsap)
 		    func.apply(obj, args);
