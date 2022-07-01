@@ -50,4 +50,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 **Authors Info**
 
-Gmail - Byron Odhimbo
+Gmail - Byron Odhiambo
+Slack - Byron Odhiambo
