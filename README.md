@@ -1,10 +1,13 @@
 GoodBook Junki
+
 By Byron Odhiambo
 Table of Content
+
 Description
 Features
 Technology Used
 Licence
+
 Authors Info
 Description
 This repository contains the goodbook junki web application.
