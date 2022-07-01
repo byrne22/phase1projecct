@@ -1,8 +1,9 @@
 html {
-    height: 98%;
-    width: 98%;
+    height: 99%;
+    width: 99%;
     font-family: 'Roboto', sans-serif;
-    background-image: url(/public/imgs/dollar-gill-9C445KLq-JE-unsplash.jpg);
+    background-image: url(/public/imgs/chang-ye-HazMIZroH2E-unsplash.jpg);
+    position:absolute
 }
 
 body {
