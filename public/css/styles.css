@@ -2,7 +2,7 @@ html {
     height: 99%;
     width: 99%;
     font-family: 'Roboto', sans-serif;
-    background-image: url("./public/imgs/claudia-wolff-MiJTU6lqksg-unsplash.jpg");
+    background-image: url("/public/imgs/claudia-wolff-MiJTU6lqksg-unsplash.jpg");
 }
 
 body {
